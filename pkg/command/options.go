@@ -23,7 +23,7 @@ type Options struct {
 	SslCert                      string `long:"ssl-cert" description:"SSL client certificate file"`
 	SslKey                       string `long:"ssl-key" description:"SSL client certificate key file"`
 	HTTPHost                     string `long:"bind" description:"HTTP server host" default:"localhost"`
-	HTTPPort                     uint   `long:"listen" description:"HTTP server listen port" default:"8081"`
+	HTTPPort                     uint   `long:"listen" description:"HTTP server listen port" default:"8080"`
 	AuthUser                     string `long:"auth-user" description:"HTTP basic auth user"`
 	AuthPass                     string `long:"auth-pass" description:"HTTP basic auth password"`
 	SkipOpen                     bool   `short:"s" long:"skip-open" description:"Skip browser open on start"`
